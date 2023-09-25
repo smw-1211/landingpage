@@ -4,6 +4,7 @@ import Header from '../../components/LandingPage/header';
 import Hero from '../../components/LandingPage/hero'
 import Info from '../../components/LandingPage/Info'
 import Index from '../../components/LandingPage/index'
+import Testimonials from '../../components/LandingPage/testimonials'
 
 export default function LandingPage() {
   return (
@@ -11,6 +12,7 @@ export default function LandingPage() {
       <Header />
       <Hero />
       <Info />
+      <Testimonials />
       <Index />
     </div>
   )
