@@ -5,6 +5,7 @@ import Hero from '../../components/LandingPage/hero'
 import Info from '../../components/LandingPage/Info'
 import Index from '../../components/LandingPage/index'
 import Testimonials from '../../components/LandingPage/testimonials'
+import WorkoutPlan from '../../components/LandingPage/workoutplan'
 
 export default function LandingPage() {
   return (
@@ -12,6 +13,7 @@ export default function LandingPage() {
       <Header />
       <Hero />
       <Info />
+      <WorkoutPlan />
       <Testimonials />
       <Index />
     </div>
