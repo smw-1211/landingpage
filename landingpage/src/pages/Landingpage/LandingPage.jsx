@@ -7,10 +7,15 @@ import Index from '../../components/LandingPage/index'
 import Testimonials from '../../components/LandingPage/testimonials'
 import WorkoutPlan from '../../components/LandingPage/workoutplan'
 import Footer from '../../components/LandingPage/footer';
+import './css/general.css'
+import './css/queries.css'
+import './css/style.css'
+
 
 export default function LandingPage() {
   return (
     <div className='App'>
+      <div id='landing-page'>
       <Header />
       <Hero />
       <Info />
@@ -18,6 +23,7 @@ export default function LandingPage() {
       <Testimonials />
       <Index />
       <Footer />
+      </div>
     </div>
   )
 }

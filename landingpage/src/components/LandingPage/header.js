@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
-import '../../pages/Landingpage/css/style.css'
+import Footer from './footer'
 
 class Header extends Component {
   render() {
     return (
       <div>
-        <header className="header">
+      <header className="header">
       <a href="#">
-        <img className="logo" alt="Brand's logo" width="200" height="400" src="assets/img/My project-1.png" />
+        <img className="logo" alt="FitOMee logo" width="200" height="400" src="assets/img/My project-1.png" />
       </a>
 
       <nav className="main-nav">
         <ul className="main-nav-list">
           <li><a className="main-nav-link" href="#workouts">Our Workouts</a></li>
           <li><a className="main-nav-link" href="#contact-us">Contact Us</a></li>
-          <li><a className="main-nav-link nav-cta" href="#">Login</a></li>
+          <li><a className="main-nav-link nav-cta" href="/login">Login</a></li>
         </ul>
       </nav>
 

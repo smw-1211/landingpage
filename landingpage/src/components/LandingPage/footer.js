@@ -38,14 +38,13 @@ class Footer extends Component {
           <p id="contact-us"className="footer-heading">Contact us</p>
           <address className="contacts">
             <p className="address">
-              UST Blueconch, Ground & 7th Floor, Sai Radhe Complex, <br></br>Pune 411028
+              Enter your address <br></br>Pune 411001
             </p>
             <p>
-              <a className="footer-link" href="tel:415-201-6370">020-24211976</a
+              <a className="footer-link" href="tel:415-201-6370">Enter your contact number</a
               ><br />
               <a className="footer-link" href="mailto:hello@fitomee.com"
-                >hello@fitomee.com</a
-              >
+                >enter your email</a>
             </p>
           </address>
         </div>

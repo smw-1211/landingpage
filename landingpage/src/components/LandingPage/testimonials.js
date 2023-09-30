@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default function Testimonials() {
+export class Testimonials extends Component {
+  render() {
     return (
       <div>
-        <section className="section-testimonials">
+
+<section className="section-testimonials">
         <div className="testimonials-container">
           <span className="subheading">Testimonials</span>
           <h2 className="heading-secondary">Once you try it, you can't go back</h2>
@@ -155,5 +157,6 @@ export default function Testimonials() {
       </div>
     )
   }
+}
 
-export { Testimonials }
+export default Testimonials
